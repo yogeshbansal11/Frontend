@@ -20,7 +20,6 @@ main{
 .form-div {
   display: flex;
   flex-direction: column;
-  margin-top: 50px;
 }
 
 .instalogo{
@@ -55,7 +54,6 @@ main{
   font-size: 95%;
   color: rgb(85, 0, 255);
   margin-bottom: 30px;
-  margin-top: 10px;
   text-align: center;
 }
 
@@ -65,10 +63,15 @@ main{
 
 }
 .sign{
-  border: 1px solid gray;
-  height: 40px;
-  width: 100%;
-  margin-top: 20px;
+  border: 1px solid #d3caca;
+    height: 61px;
+    width: 100%;
+    margin-top: 20px;
+
+}
+.Sign link{
+  text-align: center;
+  margin: auto 0px;
 }
 .getapp{
   text-align: center;
@@ -96,6 +99,6 @@ main{
   align-items: center;
   justify-content: center;
   /* padding: 3vh 2vw; */
-  padding: 100px;
+  padding: 35px;
   border: 1px solid rgba(128, 128, 128, 0.3);
 }
