@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <script>
+
+const users = [
+  { name: 'rohit', age: 23 },
+  { name: 'Bob', age: 30 },
+  { name: 'yash', age: 19 },
+  { name: 'David', age: 25 },
+  { name: 'jos', age: 27 }
+];
+
+// Filter users aged 25 or younger
+const filteredUsers = users.filter(user => user.age <= 25);
+console.log(filteredUsers);
+
+// Map the array to get an array of user names
+const userNames = users.map(user => user.name);
+console.log(userNames);
+
+// Array of order objects
+const orders = [
+  { orderId: 11, amount: 45 },
+  { orderId: 22, amount: 75 },
+  { orderId: 33, amount: 60 },
+  { orderId: 44, amount: 30 },
+  { orderId: 55, amount: 100 }
+];
+
+// Filter orders with an amount greater than 50
+// const filteredOrders = orders.filter(order => order.amount > 50);
+// console.log(filteredOrders);
+
+// Map the array to get an array of order IDs.
+const orderIds = orders.map(order => order.orderId);
+console.log(orderIds);
+
+// Filter orders with an amount between 30 and 70 (inclusive)
+const filteredOrders = orders.filter(order => order.amount >= 30 && order.amount <= 70);
+
+console.log(filteredOrders);
+
+  </script>
+</body>
+</html>
