@@ -101,7 +101,7 @@ button.normal {
   display: none;
 }
 #hero {
-  background-image: url(hero4.png);
+  background-image: url(Aboutimages/hero4.png);
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -122,7 +122,7 @@ button.normal {
 }
 
 #hero button {
-  background-image: url("button.png");
+  background-image: url("Aboutimages/button.png");
   background-color: transparent;
   color: #088178;
   border: 0;
